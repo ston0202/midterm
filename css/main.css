@@ -1,4 +1,12 @@
-.Pitchfork{
+body{
+    font-family: "Vesper Libre", serif;
+    color: #1a1a1a;
+    line-height: 1.5;
+    margin: 0;
+}
+
+
+header, footer{
     background-color: #000;
     color: #fff;
     text-align: center;
@@ -9,4 +17,19 @@ font-size: .85rem;
  text-transform: uppercase; 
  display: inline-block;
  border-bottom: 2px solid #ff3530;
+}
+
+.author, .date{
+    font-size: .85rem;
+    margin-bottom: 0;
+
+}
+
+main{
+    padding: 20px;
+}
+
+#pitchforklogo{
+    width: 100px;
+    padding-top: 10px;
 }
