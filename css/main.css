@@ -12,14 +12,8 @@ header, footer{
     text-align: center;
 }
 
-.News{
-font-size: .85rem;
- text-transform: uppercase; 
- display: inline-block;
- border-bottom: 2px solid #ff3530;
-}
 
-.author, .date{
+#author{
     font-size: .85rem;
     margin-bottom: 0;
 
@@ -33,3 +27,56 @@ main{
     width: 100px;
     padding-top: 10px;
 }
+
+figure > img{
+
+    width: 100%;
+}
+
+h1{
+    font-size: 2rem;
+    line-height: 1.3;
+    margin-bottom: 1rem;
+}
+
+figcaption, #news, .subtitle, #author, h2{
+    font-family: "Open Sans", sans-serif;
+}
+
+#news{
+    font-size: .85rem;
+     text-transform: uppercase; 
+     display: inline-block;
+     border-bottom: 2px solid #ff3530;
+    }
+
+figure{
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+figcaption{
+
+    font-size: .75rem;
+    text-align: center;
+    color: #757575;
+    font-style: italic;
+}
+
+.nominees{
+    list-style: none;
+    padding-left: 0;
+}
+
+a:link{
+    color: #1a1a1a;
+    text-decoration: underline;
+ }
+
+ a:hover{
+    color: #ff3530;
+    text-decoration: none;
+
+ }
