@@ -1,0 +1,12 @@
+.Pitchfork{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.News{
+font-size: .85rem;
+ text-transform: uppercase; 
+ display: inline-block;
+ border-bottom: 2px solid #ff3530;
+}
